@@ -1,0 +1,9 @@
+.Cart svg {
+  height: 20px;
+}
+
+.Cart use {
+  stroke: black;
+  fill: none;
+  stroke-width: 2;
+}

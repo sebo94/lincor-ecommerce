@@ -1,0 +1,16 @@
+.Header {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  /* color: #eee; */
+}
+
+.Header a {
+  height: 20px;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  color: inherit;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.025em;
+}

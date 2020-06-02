@@ -1,0 +1,55 @@
+.Menu {
+  display: flex;
+}
+
+.MenuLeft {
+  display: flex;
+  margin-right: 200px;
+}
+
+.Lang {
+  margin-right: 22px;
+}
+
+.Lang span {
+  cursor: pointer;
+  height: 20px;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  color: inherit;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.025em;
+}
+
+.Lang:hover a {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.LangDrop a {
+  font-size: 14px;
+  display: block;
+  opacity: 0;
+  transform: translateY(-5px);
+  transition: opacity 300ms ease, transform 300ms ease;
+}
+
+.LogoDesktop svg {
+  width: 118px;
+  height: 20px;
+  /* display: block; */
+}
+
+.LogoDesktop use {
+  fill: #222;
+}
+
+/* RIGHT */
+.Category {
+  text-transform: uppercase;
+  min-width: 72px;
+  letter-spacing: 0.1em;
+  font-size: 12px;
+}

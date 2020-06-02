@@ -1,0 +1,9 @@
+.Search svg {
+  height: 20px;
+}
+
+.Search use {
+  stroke: black;
+  fill: none;
+  stroke-width: 2;
+}
