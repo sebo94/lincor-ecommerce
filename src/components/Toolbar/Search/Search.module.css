@@ -1,9 +1,43 @@
+.Search {
+  position: absolute;
+  left: 110%;
+  top: 50%;
+}
+
 .Search svg {
-  height: 20px;
+  height: 16px;
+  width: 20px;
+  cursor: pointer;
 }
 
 .Search use {
   stroke: black;
   fill: none;
   stroke-width: 2;
+}
+
+/* BACKGROUND */
+
+.Test {
+  background: purple;
+  height: 200px;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Test input {
+  width: 75%;
+  border: none;
+  margin: 7.5% 20%;
+  position: relative;
+}
+
+.Test span {
+  position: absolute;
+  margin: 7.5% 20%;
+  left: 0;
+  top: 0;
+  z-index: 1;
 }

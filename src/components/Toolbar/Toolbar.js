@@ -14,8 +14,8 @@ const toolbar = () => {
         <Logo /> */}
       <nav>
         <Menu />
+        <Search />
       </nav>
-      <Search />
       <Cart />
     </header>
   );

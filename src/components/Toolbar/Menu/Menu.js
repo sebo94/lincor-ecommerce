@@ -4,7 +4,6 @@ import classes from "./Menu.module.css";
 const menu = () => {
   return (
     <div className={classes.Menu}>
-      {/* LEFT */}
       <div className={classes.MenuLeft}>
         <div className={classes.Lang}>
           <span>En</span>
@@ -12,12 +11,15 @@ const menu = () => {
             <a href="https://www.google.com">It</a>
           </div>
         </div>
-        <a href="https://www.google.com">About the brand</a>
+        <a className={classes.About} href="https://www.google.com">
+          About the brand
+        </a>
       </div>
 
-      {/* RIGHT */}
       <div className={classes.MenuRight}>
-        <a href="https://www.google.com" className={classes.Category}>Men</a>
+        <a href="https://www.google.com" className={classes.Category}>
+          Men
+        </a>
         <a href="https://www.google.com" className={classes.LogoDesktop}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -39,9 +41,10 @@ const menu = () => {
             </use>
           </svg>
         </a>
-        <a href="https://www.google.com" className={classes.Category}>Women</a>
+        <a href="https://www.google.com" className={classes.Category}>
+          Women
+        </a>
       </div>
-      <div />
     </div>
   );
 };

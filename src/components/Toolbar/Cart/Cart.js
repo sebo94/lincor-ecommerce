@@ -3,6 +3,7 @@ import classes from "./Cart.module.css";
 
 const cart = () => (
   <div className={classes.Cart}>
+    <span className={classes.Count}>0</span>
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"

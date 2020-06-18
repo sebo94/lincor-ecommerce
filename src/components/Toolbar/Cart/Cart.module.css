@@ -1,9 +1,23 @@
+.Cart {
+  /* grid-column: 2; */
+  position: absolute;
+  right: 54px;
+  top: 30px;
+}
+
 .Cart svg {
-  height: 20px;
+  height: 16px;
+  width: 16px;
 }
 
 .Cart use {
   stroke: black;
   fill: none;
   stroke-width: 2;
+}
+
+.Count {
+  margin-right: 8px;
+  width: 7px;
+  height: 20px;
 }
